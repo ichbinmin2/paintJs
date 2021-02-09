@@ -1,0 +1,78 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Open+Sans&display=swap');
+:root {
+    --main-color: #F1EEE8;
+    --sub-color: #121212;
+    --sub2-color: lightgrey;
+    --green-color: #3CA655;
+    --pink-color: #E98EA3;
+    --yellow-color: #F1CF28;
+    --red-color: #ED4D41;
+    --blue-color: #478ED5;
+    --orange-color: #DD8C32;
+}
+
+body {
+    background-color: var(--main-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+}
+.canvas {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px var(--sub2-color), 0 1px 3px var(--sub2-color);
+}
+.controls {
+    margin-top:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 브러쉬 크기 조절 */
+.controls .controls_range {
+    margin-bottom: 30px;
+}
+
+/* 버튼 fill / save */
+.controls .controls_btns {
+    margin-bottom: 30px;
+} 
+.controls_btns button {
+    all: unset;
+    width: 80px;
+    background-color: white;
+    padding: 5px 0px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid var(--sub2-color);
+    color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px var(--sub2-color), 0 1px 3px var(--sub2-color);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+}
+.controls_btns button:active {
+    transform: scale(0.98);
+}
+
+/* color */
+.controls .controls_colors {
+    display: flex;
+}
+.controls_colors
+.controls__color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px var(--sub2-color), 0 1px 3px var(--sub2-color);
+    cursor: pointer;
+    margin: 3px;
+}
+
