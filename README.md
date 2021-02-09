@@ -5,4 +5,4 @@ Painting Board made with VanillaJS
 - css
 - JavaScript(ES6) 
 
-[✔️ Painting Board](https://ichbinmin2.github.io/paintJs/)
+[✔️ Painting Board Page 👉🏻 ](https://ichbinmin2.github.io/paintJs/)
